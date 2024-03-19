@@ -1,0 +1,19 @@
+#createUserWithCorrectvalues_200
+operationId: createUser
+statusCode: 200
+params: null
+body:
+  id: 1
+  username: 'pepito'
+  firstName: 'pepito'
+  lastName: 'perez'
+  email: 'test@test.com'
+  password: 'test123'
+  phone: '23121232'
+  userStatus: 0
+matchResponse: true
+responseMatches:
+  code: 200
+  type: 'unknown'
+  message: '1'
+responseMatchesEach: {}

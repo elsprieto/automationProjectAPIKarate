@@ -1,0 +1,16 @@
+#createUserWithCorrectvalues_200
+operationId: getPetsByStatus
+statusCode: 200
+params:
+  status: 'sold'
+matchResponse: true
+responseMatches:
+  id: '#number'
+  category:
+    id: '#number'
+    name: '#string'
+  name: '#string'
+  photoUrls: '#array'
+  tags: '#array'
+  status: sold
+responseMatchesEach: false
