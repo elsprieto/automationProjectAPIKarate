@@ -1,0 +1,17 @@
+#getUserWithCorrectvalues_200
+operationId: getUser
+statusCode: 200
+params:
+  userName: 'pepito'
+body: null
+matchResponse: true
+responseMatches:
+  id: 1
+  username: 'pepito'
+  firstName: 'pepito'
+  lastName: 'perez'
+  email: 'test@test.com'
+  password: 'test123'
+  phone: '23121232'
+  userStatus: 0
+responseMatchesEach: {}
