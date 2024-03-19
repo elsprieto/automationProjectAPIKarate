@@ -1,4 +1,4 @@
-@PetApi
+@petStore
 Feature: petApi validation
 
   Background:
